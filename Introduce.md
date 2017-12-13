@@ -7,7 +7,7 @@
 ```
 MTBF: Mean time between Failures. 平均故障间隔
 MTTR: Mean time to recover. 平均修复时间
-Availability = MTBF / (MTBF + MDT)
+Availability = MTBF / (MTBF + MTTR)
 ```
 
 ## Service Level Agreement服务水平协议(SLA)
