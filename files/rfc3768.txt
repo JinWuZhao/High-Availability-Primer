@@ -935,19 +935,20 @@ RFC 3768                          VRRP                        April 2004
 
          endif
 
-      -  If the Adver_Timer fires, then:
+    -  If the Adver_Timer fires, then:
 
-      o  Send an ADVERTISEMENT o  Reset the Adver_Timer to
+      o  Send an ADVERTISEMENT 
+      o  Reset the Adver_Timer to
          Advertisement_Interval
 
          endif
 
-      -  If an ADVERTISEMENT is received, then:
+    -  If an ADVERTISEMENT is received, then:
 
          If the Priority in the ADVERTISEMENT is Zero, then:
 
-      o  Send an ADVERTISEMENT
-      o  Reset the Adver_Timer to Advertisement_Interval
+            o  Send an ADVERTISEMENT
+            o  Reset the Adver_Timer to Advertisement_Interval
 
 
 
