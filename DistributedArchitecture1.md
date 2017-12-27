@@ -97,3 +97,9 @@ N/2+1以上的节点通过才能够成功选举出Master
 1. 抢占选举是如何进行的？
 2. IP地址拥有者的作用？
 3. vrrp如何应对脑裂？
+
+# 参考资料
+[rfc3768](https://tools.ietf.org/rfc/rfc3768.txt)
+[免费ARP](https://arthurchiao.github.io/blog/gratuitous-arp-cn-zh/)
+[keepalived与VRRP](http://hugnew.com/?p=745)
+[LVS介绍](http://www.linuxvirtualserver.org/zh/lvs1.html)
